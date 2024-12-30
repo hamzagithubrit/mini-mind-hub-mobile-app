@@ -1,0 +1,62 @@
+# General node modules
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS system files
+.DS_Store
+
+# Temporary files
+.tmp/
+temp/
+*.temp
+
+# Expo files
+.expo/
+.expo-shared/
+
+# Environment files
+.env
+.env.*
+app.json
+app.config.js
+eas.json
+
+# Build and output directories
+build/
+dist/
+.web-build/
+android/
+ios/
+
+# Metro bundler files
+.cache/
+*.metro*
+
+# React Native Packager files
+/coverage
+/assets/index.android.bundle
+/assets/index.ios.bundle
+/ios/Pods/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and reports
+*.log
+*.tflite
+*.tflite*
+
+# Test coverage
+coverage/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+minimind-notification-firebase-adminsdk-*.json

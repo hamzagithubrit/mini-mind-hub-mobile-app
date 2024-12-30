@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "385455402550",
+    "project_id": "minimind-notification",
+    "storage_bucket": "minimind-notification.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385455402550:android:647830e070457f715cf297",
+        "android_client_info": {
+          "package_name": "com.anonymous.frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJi22UWR8neqeZc7xQu0Gr-5ClUtI6220"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
