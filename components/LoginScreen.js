@@ -49,6 +49,7 @@ const LoginScreen = ({ navigation }) => {
       if (response.data && response.data.token) {
         // Alert.alert('Success', 'Logged in successfully!');
         await AsyncStorage.setItem("token", response.data.token);
+        await AsyncStorage.setItem("user", JSON.stringify(response.data.user));
 
         setUser({
           id: response.data.user.id,
